@@ -14,5 +14,30 @@ Best current model: CatBoostClassifier (hyperparameters tuned using GridSearchCV
 
 <img src="./score.png" width="330">
 
+## Setup
+0.Install Anaconda or Miniconda [here](https://docs.anaconda.com/anaconda/install/)
+ 
+1.Clone the repository, and navigate to the downloaded folder.
+```
+git clone https://github.com/VincentJonathanz/heart-disease-predictions.git
+```
+2.Create and activate enviroment.
+   - **Anaconda Prompt**:
+      ```
+      conda env create --prefix ./env -f enviroment.yml
+      conda activate heart-disease-predictions/env
+      ```
+      
+   - **Powershell** (you need to run this command first then run the command above):
+      ```
+      conda init powershell
+      Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+      ```
+      
+3.Start Jupyter
+``` 
+jupyter notebook
+```
+
 
 
